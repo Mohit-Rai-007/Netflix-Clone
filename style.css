@@ -3,6 +3,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 .banner-image{
     background-image:linear-gradient(to Right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/Banner.jpg);
     width: auto;
@@ -79,4 +82,28 @@ input::placeholder{
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+
+/* .clip{
+    clip-path: ellipse(53% 3% at 51% 100%);
+    background-color: red;
+    height: 200px;
+    position: relative;
+    top: -25%;
+} */
+
+
+
+.carousel{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 100px;
+}
+
+.carousel img{
+    border-radius: 15px;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
 }
