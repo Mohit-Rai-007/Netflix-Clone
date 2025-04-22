@@ -1,48 +1,59 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+
+body {
+    background-color: #121212;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    height: 2000px;
 }
-.banner-image{
-    background-image:linear-gradient(to Right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/Banner.jpg);
+
+.banner-image {
+    background-image: linear-gradient(to Right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Banner.jpg);
     width: auto;
     height: 720px;
-    
+
 }
-.headersection{
-     
+
+.headersection {
+
     display: flex;
     height: 15%;
 }
-.headersection .logo{
-    
+
+.headersection .logo {
+
     margin-left: 100px;
 }
-.headersection .nav-items{
-    
+
+.headersection .nav-items {
+
     display: flex;
     justify-content: flex-end;
     height: 100%;
     width: 100%;
     align-items: center;
 }
-.nav-items .languageselect{
+
+.nav-items .languageselect {
     margin-right: 30px;
 }
-.languageselect select{
+
+.languageselect select {
     padding: 5px;
     border-radius: 5px;
     background: transparent;
     color: white;
     width: 80px;
 }
-.nav-items .signinbutton{
+
+.nav-items .signinbutton {
     margin-right: 200px;
 }
-.signinbutton button{
+
+.signinbutton button {
     padding: 10px;
     border-radius: 10px;
     background-color: red;
@@ -50,12 +61,13 @@ body{
     border: none;
 }
 
-input::placeholder{
+input::placeholder {
     color: white;
 }
+
 /* MAIN SECTION START HERE */
 
-.main-content{
+.main-content {
     color: white;
     /* border: 4px solid red; */
     height: 85%;
@@ -63,7 +75,8 @@ input::placeholder{
     font-size: 250%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.main-content input{
+
+.main-content input {
     width: 20%;
     height: 40px;
     border-radius: 5px;
@@ -72,9 +85,10 @@ input::placeholder{
     border: 2px solid white;
     color: white;
     font-weight: bold;
-    
+
 }
-.main-content button{
+
+.main-content button {
     background-color: red;
     border: none;
     width: 8%;
@@ -94,16 +108,132 @@ input::placeholder{
 
 
 
-.carousel{
+.carousel {
     display: flex;
     gap: 20px;
     overflow-x: auto;
     margin: 100px;
 }
 
-.carousel img{
+.carousel img {
     border-radius: 15px;
 }
-.carousel::-webkit-scrollbar{
+
+.carousel::-webkit-scrollbar {
     display: none;
+}
+
+/* CSS for reason to join section */
+
+.reason_section {
+    margin-left: 10%;
+    color: white;
+}
+
+.reason_to_join {
+    /* border: 3px solid white; */
+    height: 222.400px;
+    width: 1236.800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason1 {
+    /* border: 3px solid red; */
+    height: 222.400px;
+    width: 300px;
+    border-radius: 22px;
+    padding: 16px;
+    background-color: #282626;
+    position: relative;
+    box-shadow:
+        0px 15px 25px rgba(0, 0, 0, 0.4),
+        0px 6px 6px rgba(0, 0, 0, 0.3),
+        0px 1px 1px rgba(255, 255, 255, 0.1) inset,
+        0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.reason2 {
+    /* border: 3px solid blue; */
+    height: 222.400px;
+    width: 300px;
+    border-radius: 22px;
+    padding: 16px;
+    background-color: #282626;
+    position: relative;
+    box-shadow:
+        0px 15px 25px rgba(0, 0, 0, 0.4),
+        0px 6px 6px rgba(0, 0, 0, 0.3),
+        0px 1px 1px rgba(255, 255, 255, 0.1) inset,
+        0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.reason3 {
+    /* border: 3px solid green; */
+    height: 222.400px;
+    width: 300px;
+    border-radius: 22px;
+    padding: 16px;
+    background-color: #282626;
+    position: relative;
+    box-shadow:
+        0px 15px 25px rgba(0, 0, 0, 0.4),
+        0px 6px 6px rgba(0, 0, 0, 0.3),
+        0px 1px 1px rgba(255, 255, 255, 0.1) inset,
+        0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.reason4 {
+    /* border: 3px solid yellow; */
+    height: 222.400px;
+    width: 300px;
+    border-radius: 22px;
+    padding: 16px;
+    background-color: #282626;
+    position: relative;
+    box-shadow:
+        0px 15px 25px rgba(0, 0, 0, 0.4),
+        0px 6px 6px rgba(0, 0, 0, 0.3),
+        0px 1px 1px rgba(255, 255, 255, 0.1) inset,
+        0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.reason1 svg {
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    right: 15px;
+    /* Distance from right edge */
+    top: 70%;
+    /* Vertically center */
+}
+
+.reason2 svg {
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    right: 15px;
+    /* Distance from right edge */
+    top: 70%;
+    /* Vertically center */
+}
+
+.reason3 svg {
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    right: 15px;
+    /* Distance from right edge */
+    top: 70%;
+    /* Vertically center */
+}
+
+.reason4 svg {
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    right: 15px;
+    /* Distance from right edge */
+    top: 70%;
+    /* Vertically center */
 }
