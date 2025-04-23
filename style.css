@@ -7,7 +7,7 @@
 body {
     background-color: #121212;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    height: 2000px;
+    height: 2800px;
 }
 
 .banner-image {
@@ -236,4 +236,88 @@ input::placeholder {
     /* Distance from right edge */
     top: 70%;
     /* Vertically center */
+}
+
+/* FAQs section CSS start here */
+
+.Frequently_Asked_Questions {
+    color: white;
+    margin-top: 7%;
+    /* width: 82%; */
+}
+
+.Frequently_Asked_Questions h1 {
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.faq1,
+.faq2,
+.faq3,
+.faq4,
+.faq5,
+.faq6 {
+    background-color: #272727;
+    width: 81%;
+    margin: auto;
+    padding: 24px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    box-shadow:
+        0px 15px 25px rgba(0, 0, 0, 0.4),
+        0px 6px 6px rgba(0, 0, 0, 0.3),
+        0px 1px 1px rgba(255, 255, 255, 0.1) inset,
+        0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.answer1,
+.answer2,
+.answer3,
+.answer4,
+.answer5,
+.answer6 {
+    display: none;
+    margin-top: 16px;
+    background-color: #272727;
+    margin: auto;
+    width: 81%;
+    padding: 24px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    box-shadow:
+        0px 15px 25px rgba(0, 0, 0, 0.4),
+        0px 6px 6px rgba(0, 0, 0, 0.3),
+        0px 1px 1px rgba(255, 255, 255, 0.1) inset,
+        0px -1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+input[type="checkbox"]:checked~.answer1 {
+    display: block;
+}
+
+input[type="checkbox"]:checked~.answer2 {
+    display: block;
+}
+
+input[type="checkbox"]:checked~.answer3 {
+    display: block;
+}
+
+input[type="checkbox"]:checked~.answer4 {
+    display: block;
+}
+
+input[type="checkbox"]:checked~.answer5 {
+    display: block;
+}
+
+input[type="checkbox"]:checked~.answer6 {
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: none;
 }
