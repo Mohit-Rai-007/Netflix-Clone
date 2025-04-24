@@ -8,7 +8,7 @@ body {
     /* background-color: #121212; */
     background-color: #120A0A;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    height: 2800px;
+    height: 2950px;
 }
 
 .banner-image {
@@ -50,7 +50,7 @@ body {
 .languageselect select {
     padding: 7px;
     margin-left: 10px;
-    border-radius: 5px;
+    border-radius: 40px;
     background: transparent;
     color: white;
     width: 110px;
@@ -63,7 +63,7 @@ body {
 
 .signinbutton button {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 40px;
     background-color: red;
     color: white;
     border: none;
@@ -483,4 +483,77 @@ input[type="checkbox"]:checked~.answer6 {
 
 input[type="checkbox"] {
     display: none;
+}
+
+/* CSS for Footer Section Starts Here */
+
+.above-footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.email-input input{
+    background: transparent;
+    border: none;
+    background-color: #474747;
+    padding: 16px;
+    width: 370px;
+    height: 60px;
+    font-size: 1rem;
+    color: #C5C5C5;
+    border-radius: 40px;
+}
+.get-started-button button{
+    width: 222px;
+    background-color: #E50914;
+    border: none;
+    padding: 16px;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.footer{
+    color: white;margin-top: 4rem;
+}
+.link-part{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.link-part ul li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.link-part a {
+    color: white;
+}
+
+.languageselectt{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+}
+.languageselectt i{
+    position: relative;
+    left: 3%;
+    top: 5.6%;
+    color: white;
+}
+.languageselectt select {
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+    width: 120px;
+    text-align: center;
+    /* appearance: none; */
+}
+.theend{
+    color: white;
+    margin-left: 130px;
+    margin-top: 50px;
 }
