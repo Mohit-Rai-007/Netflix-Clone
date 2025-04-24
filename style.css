@@ -6,7 +6,7 @@
 
 body {
     /* background-color: #121212; */
-    background-color: #2F2A2A;
+    background-color: #120A0A;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     height: 2800px;
 }
@@ -118,13 +118,33 @@ input::placeholder {
 
 .carousel {
     display: flex;
-    gap: 20px;
+    gap: 35px;
     overflow-x: auto;
-    margin-left: 160px;
-    margin-top: 80px;
+    margin-left: 120px;
+    margin-top: 55px;
     /* border: 2px solid red; */
+    padding: 12.80px 16px 12.80px 25.60px;
     /* height: 300px; */
 }
+
+.image-container {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: -5px;
+    left: -25px;
+    font-size: 5rem;
+    font-weight: 800;
+    color: black;
+    text-shadow:
+        -2px -2px 0 white,
+         2px -2px 0 white,
+        -2px  2px 0 white,
+         2px  2px 0 white;
+}
+
 
 #img1{
     background-image: url(https://occ-0-6246-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABey3Kr5Lu3gHAKB2iC13MZEsJ0SZuHdPqCHL5cKK3c5EE-x4jslfgNqWRP_AKhSOlBVTYkAH9NwroMTNS3J--Ae6m9CBqWLNtTYYmoM48bdZNl27ePJoh072NJJsHedog5c4cBS-4iOrKFlsUfNb.jpg?r=95f);
@@ -133,7 +153,7 @@ input::placeholder {
     flex: 0 0 auto;
     background-size: cover;
     border-radius: 1rem;
-    padding: 12.80px 16px 12.80px 25.60px;
+    
     box-shadow:
         0px 15px 25px rgba(0, 0, 0, 0.4),
         0px 6px 6px rgba(0, 0, 0, 0.3),
